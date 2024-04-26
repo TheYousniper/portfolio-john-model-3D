@@ -42,7 +42,8 @@ const Sound = () => {
     const consentTime = localStorage.getItem("consentTime");
 
     if (consent && consentTime &&
-      new Date(consentTime).getTime() + 3*24*60*60*1000 > new Date()
+      //new Date(consentTime).getTime() + 3*24*60*60*1000 > new Date()
+      new Date(consentTime).getTime() + 30*1000 > new Date()
     ) {
       setIsPlaying(consent === "true");
 
