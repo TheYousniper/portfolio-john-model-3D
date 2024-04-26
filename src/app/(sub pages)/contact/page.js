@@ -20,10 +20,7 @@ export default function Contact() {
           <p className="text-justify sm:text-center font-light text-sm xs:text-base">
             You should contact me because I have the experience and skill to
             create visually attractive and functional websites that meet the
-            needs and objectives of my clients. My user-centric approach,
-            combined with my ability to incorporate the latest design and
-            technology trends, ensures that the projects I deliver are of high
-            quality and meet my clients' expectations. Additionally, my
+            needs and objectives of my clients. Additionally, my
             commitment to open communication and collaboration ensures a
             positive experience for my clients throughout the website
             development process.
